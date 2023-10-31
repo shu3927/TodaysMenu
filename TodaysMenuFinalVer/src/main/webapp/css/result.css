@@ -1,0 +1,126 @@
+
+body {
+  background-color: #ffe;
+  font-family: Arial, sans-serif;
+  max-width: 100%;
+
+}
+
+.wrapper{
+	margin: 60px auto;
+	max-width: 500px;
+}
+
+.title {
+  color:#FFA500;
+  font-size: 2.2rem;
+  padding: 25px 20px;
+  margin: 20px 0;
+}
+
+.favoriteArea{
+  color:#001100;
+  font-size: 2.6rem;
+  font-weight:  bold;
+  padding: 30px 20px;
+  margin: 40px 0;
+  
+}
+.cookUrl {
+	text-decoration: none;
+	color:#003300;
+}
+.notes{
+	font-size:1.5rem;
+	margin: 10px 0;
+	color:#777777;
+}
+
+.formArea{
+	margin: 0 auto;
+	
+}
+
+.buttonStyle {
+  background-color: #FFA500;
+  color:#fff;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 8px;
+  /* 角丸にする */
+  padding: 10px 5px;
+  margin: 30px auto;
+  width: 76%;
+  height: auto;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	
+}
+.buttonStyle2 {
+  background-color: #FFA500;
+  color:#fff;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 8px;
+  /* 角丸にする */
+  padding: 15px 5px;
+  margin: 30px auto;
+  width: 76%;
+  height: auto;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	
+}
+.buttonSize {
+	border: none;
+	background-color: transparent;
+	color:#fff;
+	font-size: 1.6rem;
+}
+
+.pageUrl{
+	text-decoration: none;
+	color:#fff;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+/*ハートの画像*/
+.unfavorited {
+	width: 40px;
+	height: 20px;
+	margin-left: 10px;
+	background: transparent url(../img/favorite.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: none;
+}
+
+
+.favorited{
+	display: inline-block;
+	margin: -2px 0 0 10px;
+    width: auto;
+    height: 20px;
+    background-image: url("../img/favoriteOn.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+
+.rouletteImg{
+   width: 100px;
+   height: 100px;
+   margin: 30px;
+   background-image: url("../img/roulette.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-color: #fff;
+   border: none;
+   /*追加したよー*/
+   position:absolute;
+   top: -200px;
+   left: 82px;
+}

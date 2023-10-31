@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ログインフォーム</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+    </header>
+    <main class="wrapper">
+        <!-- ルーレット画像 -->
+        <img src="../img/roulette.png" alt="ルーレット">
+
+        <!-- 入力フォーム -->
+        <input id="name" class="nameInput" type="text" placeholder="ニックネーム">
+        <input id="password" class="passwordInput" type="password" placeholder="パスワード">
+
+        <!-- jsを使用しLoginCheck.javaにnameとpassの値を渡す -->
+        <button id="send" class="loginButton">
+            <p class="loginButtonWord">
+                ログイン
+            </p>
+        </button>
+        <!-- ログインボタンのあとに値の結果を返す -->
+        <span class="msg"></span>
+
+        <p class="loginformGest">
+            <a class="loginformGestLink" href="Start.html">
+                ゲストでログイン
+            </a>
+        </p>
+        <p class="loginformUser">
+            <a class="loginformUserLink" href="useregistration.html">
+                ユーザー登録はこちら
+            </a>
+        </p>
+    </main>
+    <script src="../js/login.js"></script>
+    
+</body>
+
+</html>

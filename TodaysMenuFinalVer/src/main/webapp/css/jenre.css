@@ -1,0 +1,72 @@
+@charset "UTF-8"; 
+
+ body {
+  background-color: #ffe;
+  font-family: Arial, sans-serif;
+  max-width: 100%;
+}
+
+.wrapper {
+	max-width:327px;
+	margin: 0 auto;
+}
+
+.title {
+  color: #FFA500;
+  font-size: 2.0rem;
+  margin: 60px 0;
+}
+
+.listArea{
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	max-width: 324px;
+ 	text-align: left;
+ 	/*変更したよ*/
+ 	margin: 200px auto;
+ 	position: relative;
+ }
+ 
+ form{
+	width: 100%;
+ }
+ 
+.col {
+     width: 50%; /* 2つ横に並べるために幅を50%に設定 */
+     margin: 5px 0;
+     font-size: 2.2rem;
+  }
+  
+  input {
+   margin: 0 0 0 50px;
+  }
+  
+  .submitbtn {
+  background-color: #FFA500;
+  color:#fff;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 8px;
+  /* 角丸にする */
+  padding: 10px 5px;
+  margin: 40px auto 0;
+  width: 90%;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	
+}
+  
+/*ルーレットの画像*/
+  .rouletteImg{
+   width: 100px;
+   height: 100px;
+   background: transparent url("../img/roulette.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   border: none;
+   /*追加したよー*/
+   position:absolute;
+   top: -150px;
+   left: 116px;
+    
+}

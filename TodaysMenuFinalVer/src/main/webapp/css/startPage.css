@@ -1,0 +1,46 @@
+
+
+.wrapper{
+    max-width: 327px;
+    margin: 0 auto;
+    
+}
+
+.pageTitle{
+    font-size: 2rem;
+    margin: 200px auto 80px;
+}
+
+
+.loginButton{
+    text-decoration: none;
+    display: block;
+    width: 250px;
+    height: 40px;
+    margin: 0 auto 30px;
+    background-color: #00AF3A;
+}
+
+.loginButtonLogin{
+    padding: 10px;
+    color: #fff;
+    font-size: 1.8rem;
+    
+}
+
+.commonButton{
+    text-decoration: none;
+    color:black;
+    display: block;
+   
+
+}
+
+.commonButtonGest{
+    color:#00AF3A;
+    margin: 40px auto 20px;
+}
+
+.commonButtonNew{
+    color:#00AF3A;
+}

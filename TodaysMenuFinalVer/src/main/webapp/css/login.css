@@ -1,0 +1,114 @@
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+.loader.loaded {
+    opacity: 0; /* ローディング画面を透明にする */
+    pointer-events: none; /* クリックを無効にする */
+}
+
+/* オープニング画面の背景色*/
+.loader{
+	background-color: #ffe;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.openAreaImg{
+	width: 40px;
+	height: auto;
+	background-image: contain;
+	margin-right: 16px;
+	/* 0度から360度までを0.6秒で無限に回る */
+	animation: animate 0.6s linear infinite;
+}
+
+/* animateという名前をつけた。
+   ↑のanimateと同じ。変数名のようなもの */
+@keyframes animate {
+	0% {
+		transform: rotate(0deg);
+	}
+	
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.loadingTitle {
+	font-size: 2rem;
+	color: #333;
+}
+
+/*読み込まれた後、ローディング画面を透明化*/
+.loaded {
+	opacity: 0;
+    transition: all 0.3s;
+}
+
+/* ログイン画面 */
+.content {
+    max-width: 327px;
+    margin: 0 auto 0;
+}
+
+/* ルーレットの画像 */
+.roulette {
+    margin-top: 26%;
+    margin-bottom: 40px;
+    width: 24%;
+    height: 24%;
+}
+
+
+
+
+
+.nameInput, .passwordInput {
+    width: 95%;
+    height: 32px;
+    padding-left: 10px;
+    margin-bottom: 16px;
+}
+
+.errorLog {
+	margin-top: 20px;
+	color: red;
+	font-size: 1.5rem;
+	
+}
+/* ログインボタン */
+.loginButton {
+    font-size: 1.4rem;
+    background-color: #00AF3A;
+    border: none;
+    width: 100%;
+    margin: 0 auto;
+    height: 40px;
+    border-radius: 2px;
+
+}
+
+.loginButton .loginButtonWord {
+    color: #f7f7f7
+}
+
+.loginformGest {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* リンクのデコレーション消す、文字の装飾*/
+.loginformGestLink, .loginformUserLink {
+    text-decoration: none;
+    color: #00AF3A;
+}

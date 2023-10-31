@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+.wrapper {
+	max-width: 327px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.title{
+	font-size: 2.2rem;
+	margin: 50px auto 20px;
+}
+
+.des{
+	margin-bottom: 20px;
+}

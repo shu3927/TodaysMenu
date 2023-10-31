@@ -1,0 +1,32 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 1.6rem;
+}
+
+.link{
+    display: inline-block;
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 100px;
+    text-decoration: none;
+    color:#fff;
+    background-color: #AF2000;
+}
+
+
+

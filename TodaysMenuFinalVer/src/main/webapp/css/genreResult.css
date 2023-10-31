@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+body {
+	background-color: #ffe;
+	font-family: Arial, sans-serif;
+	max-width: 100%;
+}
+
+.wrapper {
+	padding: 0 24px;
+	height: 100vh;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.title {
+	color: #FFA500;
+	font-size: 2.2rem;
+	margin: 40px 0;
+}
+
+.cookUrl {
+	text-decoration: none;
+	color: #333;
+	font-size: 2rem;
+}
+
+.list {
+	padding: 10px 0;
+	display: flex;
+	justify-content: center;
+}
+
+/* スクロールエリア*/
+.scrollArea {
+	margin: 0px 20px;
+	height: 40%;
+	overflow-y: auto;
+	border: 2px solid #330000;
+	padding-top: 16px;
+}
+
+/*　ボタンのスタイル */
+.buttonStyle {
+	background-color: #FFA500;
+	color: #fff;
+	font-size: 1.6rem;
+	border: none;
+	border-radius: 8px;
+	/* 角丸にする */
+	padding: 10px 20px;
+	margin: 30px 0 -20px;
+	width: 294px;
+	cursor: pointer;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pageUrl {
+	font-size: 1.6rem;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	background-color: #FFA500;
+	width: 267px;
+	margin: 40px auto 0;
+	padding: 14px;
+	border-radius: 8px;
+}
+
+/* お気に入りに入っていない画像 */
+.unfavorited {
+	display: block;
+	width: auto;
+	height: 20px;
+	margin-left: 10px;
+	background: transparent url(../img/favorite.png);
+	border: none;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+/* お気に入りに入っている画像 */
+.favorited{
+	display: block;
+	width: auto;
+	height: 20px;
+	margin-left: 10px;
+	background: transparent url("../img/favoriteOn.png");
+	border: none;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
